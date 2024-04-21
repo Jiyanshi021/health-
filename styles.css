@@ -1,0 +1,114 @@
+/* Global styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header styles */
+/* Header styles */
+.header {
+  background-color: #007bff; /* Header background color */
+  padding: 20px;
+  text-align: center;
+  color: #ffffff; /* Header text color */
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #ffffff; /* Navbar background color */
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff; /* Navbar brand text color */
+  text-decoration: none;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 20px; /* Adjust spacing between navbar items */
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff; /* Navbar link text color */
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px; /* Rounded corners for navbar links */
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(0, 123, 255, 0.1); /* Background color on hover */
+}
+
+.nav-link.active {
+  background-color: rgba(0, 123, 255, 0.2); /* Background color for active link */
+}
+
+/* Main content wrapper */
+#content {
+  padding-top: 120px; /* Adjusted to accommodate fixed navbar */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container h2 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #007bff; /* Match with header color */
+}
+
+/* Parallax section */
+.parallax {
+  background-image: url("image/img2.png");/* Placeholder image URL */
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.parallax-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+}
+
+.parallax-content {
+  z-index: 1; /* Ensure content is above overlay */
+  max-width: 800px;
+}

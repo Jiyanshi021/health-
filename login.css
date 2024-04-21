@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+ 
+.navbar {
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #DBECFE;
+}
+
+.navbar-icon {
+    background-color: white;
+    color: #479DE9;
+}
+
+.nav-logo {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.navbar-content {
+    padding: 15px;
+    background-color: #479DE9;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #DBECFE;
+    flex-direction: column;
+    margin: 0;
+}
+
+.login-box {
+    background-color:#fff;
+    color: #479DE9;
+    box-shadow: 10px 10px #479DE9;
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    height: 450px;
+    width: 400px;
+    text-align: center;
+}
+
+.login-box i{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.login-box h3 {
+    color: #ABA7A9;
+}
+
+.login-username input{
+    margin-top: 10px;
+    background-color: #DBECFE;
+    border: none;
+    border-bottom: 2px solid #479DE9;
+    width: 300px;
+    padding: 10px;
+}
+
+.login-password input{
+    margin-top: 10px;
+    background-color: #DBECFE;
+    border: none;
+    border-bottom: 2px solid #479DE9;
+    width: 300px;
+    padding: 10px;
+}
+
+.wrap button{
+    margin-top: 10px;
+    width: 300px;
+    background-color: #479DE9;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.login-box p{
+    color: #898686;
+    margin-top: 10px;
+}
+
+.login-box a{
+    color: #898686;
+    margin-top: 10px;
+}
+
+.login-register {
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border: 1px solid #898686;
+    padding: 10px;
+}
